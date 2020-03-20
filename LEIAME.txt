@@ -1,0 +1,5 @@
+Para utilizar, hospedar os arquivos no servidor e embutir o visualizador na página desejada dentro de um <iframe>.
+
+Para alterações, instalar as dependências com o NPM e executar o comando `$ npm run dev`.
+
+Para fechar as alterações e disponibilizá-las, executar o comando `$ npm run build`.

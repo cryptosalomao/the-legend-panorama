@@ -1,0 +1,78 @@
+<html>
+  <head>
+    <meta charset="utf8" />
+    <title>360 Viewer for LOOMI</title>
+    <link href="https://cdn.jsdelivr.net/npm/photo-sphere-viewer@3.5.1/dist/photo-sphere-viewer.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <style>
+        body, html {
+          padding: 0;
+          margin: 0;
+          box-sizing: border-box;
+          background-color: #0f0f0f;
+        }
+        #viewer {
+          width: 100vw;
+          height: 77vh;
+        }
+        #gallery {
+          width: 100vw;
+          background: #0f0f0f;
+          position: relative;
+          overflow-x: auto;
+          overflow-y: hidden;
+          white-space:nowrap;
+          box-sizing: border-box;
+          padding: 5px;
+        }
+        #gallery .item {
+          margin-right: 1px;
+          height: 120px !important;
+          width: 120px !important;
+          height: inherit;
+          display: inline-block;
+          position: relative;
+          background-size: cover;
+          cursor: pointer;
+          border: 0;
+          border-radius: 4px;
+        }
+        .item .title {
+          padding: 8px;
+          background-color: rgba(40, 40, 40, 0.8);
+          color: #fff;
+          font-weight: bold;
+          font-size: 1.3em;
+        }
+        .active > .title {
+          background-color: rgb(41, 41, 175) !important;
+        }
+
+        .alignment {
+          margin: 0 auto;
+          height: inherit;
+          max-width: 500px;
+        }
+      </style>
+  </head>
+  <body>
+    <div id="viewer"></div>
+    <div id="gallery">
+      <div class="alignment">
+        <button class="item active" data-andar="1-andar" style='background-image: url(./img/thumbnails/1-andar.jpg)'>
+          <div class="title" data-andar="1-andar">1º andar</div>
+        </button>
+        <button class="item" data-andar="5-andar" style='background-image: url(./img/thumbnails/5-andar.jpg)'>
+          <div class="title" data-andar="5-andar">5º andar</div>
+        </button>
+        <button class="item" data-andar="10-andar" style='background-image: url(./img/thumbnails/10-andar.jpg)'>
+          <div class="title" data-andar="10-andar">10º andar</div>
+        </button>
+        <button class="item" data-andar="15-andar" style='background-image: url(./img/thumbnails/15-andar.jpg)'>
+          <div class="title" data-andar="15-andar">15º andar</div>
+        </button>
+      </div>
+    </div>
+    <script src="./bundle.js"></script>
+  </body>
+</html>
