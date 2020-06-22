@@ -3,6 +3,7 @@
     <meta charset="utf8" />
     <title>360 Viewer for LOOMI</title>
     <link href="https://cdn.jsdelivr.net/npm/photo-sphere-viewer@3.5.1/dist/photo-sphere-viewer.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <style>
         body, html {
@@ -13,7 +14,7 @@
         }
         #viewer {
           width: 100vw;
-          height: 77vh;
+          height: 100vh;
         }
         #gallery {
           width: 100vw;
@@ -57,19 +58,6 @@
   </head>
   <body>
     <div id="viewer"></div>
-    <div id="gallery">
-      <div class="alignment">
-        <button class="item active" data-andar="9-andar" style='background-image: url(./img/thumbnails/9-andar.jpg)'>
-          <div class="title" data-andar="9-andar">9º andar</div>
-        </button>
-        <button class="item" data-andar="15-andar" style='background-image: url(./img/thumbnails/15-andar.jpg)'>
-          <div class="title" data-andar="15-andar">15º andar</div>
-        </button>
-        <button class="item" data-andar="21-andar" style='background-image: url(./img/thumbnails/21-andar.jpg)'>
-          <div class="title" data-andar="21-andar">21º andar</div>
-        </button>
-      </div>
-    </div>
     <script src="./bundle.js"></script>
   </body>
 </html>
