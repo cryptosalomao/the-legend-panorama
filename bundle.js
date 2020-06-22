@@ -11,6 +11,7 @@ const viewer = new PhotoSphereViewer({
     'zoom',
   ],
   time_anim: false,
+  longitude_range: [0, 245],
   markers: [
     {
       id: 'marker1',
