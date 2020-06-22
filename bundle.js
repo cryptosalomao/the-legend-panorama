@@ -11,7 +11,6 @@ const viewer = new PhotoSphereViewer({
     'zoom',
   ],
   time_anim: false,
-  latitude_range: [0, 245],
   markers: [
     {
       id: 'marker1',
@@ -225,6 +224,7 @@ $('button.item').click(function(e) {
   viewer.setPanorama(nextImg);
   $(this).toggleClass('active').siblings().removeClass('active');
 });
+
 },{"photo-sphere-viewer":3}],2:[function(require,module,exports){
 // doT.js
 // 2011-2014, Laura Doktorova, https://github.com/olado/doT
