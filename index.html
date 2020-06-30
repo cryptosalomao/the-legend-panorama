@@ -137,57 +137,57 @@
    
       $('#lazer').click(function(e) {
         $('.lazer').each(function (i, elem) {
-          $(elem).show();
+          $(elem).removeClass('hide-show');
         });
 
         $('.health').each(function (i, elem) {
-          $(elem).hide();
+          $(elem).addClass('hide-show');
         });
 
         $('.conv').each(function (i, elem) {
-          $(elem).hide();
+          $(elem).addClass('hide-show');
         });
       });
 
       $('#conv').click(function(e) {
         $('.lazer').each(function (i, elem) {
-          $(elem).hide();
+          $(elem).addClass('hide-show');
         });
 
         $('.health').each(function (i, elem) {
-          $(elem).hide();
+          $(elem).addClass('hide-show');
         });
 
         $('.conv').each(function (i, elem) {
-          $(elem).show();
+          $(elem).removeClass('hide-show');
         });
       });
 
       $('#health').click(function(e) {
         $('.lazer').each(function (i, elem) {
-          $(elem).hide();
+          $(elem).addClass('hide-show');
         });
 
         $('.health').each(function (i, elem) {
-          $(elem).show();
+          $(elem).removeClass('hide-show');
         });
 
         $('.conv').each(function (i, elem) {
-          $(elem).hide();
+          $(elem).addClass('hide-show');
         });
       });
 
       $('#all').click(function(e) {
         $('.lazer').each(function (i, elem) {
-          $(elem).show();
+          $(elem).removeClass('hide-show');
         });
 
         $('.health').each(function (i, elem) {
-          $(elem).show();
+          $(elem).removeClass('hide-show');
         });
 
         $('.conv').each(function (i, elem) {
-          $(elem).show();
+          $(elem).removeClass('hide-show');
         });
       });
     </script>
