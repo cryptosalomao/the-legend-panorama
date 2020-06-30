@@ -2,6 +2,7 @@
   <head>
     <meta charset="utf8" />
     <title>360 Viewer for LOOMI</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
     <link href="https://cdn.jsdelivr.net/npm/photo-sphere-viewer@3.5.1/dist/photo-sphere-viewer.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
@@ -12,6 +13,7 @@
           box-sizing: border-box;
           background-color: #0f0f0f;
         }
+
         .menu {
           position: absolute;
           top: 20px;
@@ -31,7 +33,7 @@
           height: 30px;
         }
         .open-menu {
-          width: 20%;
+          min-width: 20%;
           height: 100%;
           position: absolute;
           background-color:rgba(40, 40, 40, 0.8);
@@ -108,14 +110,6 @@
         .hide-show {
           display: none;
         }
-
-        @media (max-width: 600px){
-          .menu {
-            width: 80px;
-            height: 80x;
-            padding-top: 15px;
-          }
-        } 
       </style>
   </head>
   <body>
