@@ -12,9 +12,54 @@
           box-sizing: border-box;
           background-color: #0f0f0f;
         }
+        .menu {
+          position: absolute;
+          top: 20px;
+          left: 40px;
+          z-index: 10 !important;
+          width: 40px;
+          height: 40px;
+          border-radius: 50%;
+          background-color: #fff;
+          text-align: center;
+          padding-top: 5px;
+          box-sizing: border-box;
+          cursor: pointer;
+        }
+        .menu img {
+          width: 30px;
+          height: 30px;
+        }
+        .open-menu {
+          width: 20%;
+          height: 100%;
+          position: absolute;
+          background-color:rgba(40, 40, 40, 0.8);
+          z-index: 9 !important;
+          text-align: center;
+        }
+        .open-menu .content {
+          margin-top: 100px;
+          padding-right: 10px;
+          padding-left: 10px;
+          text-align: center;
+          box-sizing: border-box;
+        }
+        .open-menu .content .option {
+          padding: 5px;
+          width: 100%;
+          margin: 20px auto 0 auto;
+          background-color: #fff;
+          border: none;
+          border-radius: 4px;
+          display: block;
+          cursor: pointer;
+        }
         #viewer {
           width: 100vw;
           height: 100vh;
+          position: absolute;
+          z-index: 1;
         }
         #gallery {
           width: 100vw;
@@ -60,10 +105,90 @@
           text-decoration: none;
           font-family: Roboto, sans-serif;
         }
+        .hide-show {
+          display: none;
+        }
       </style>
   </head>
   <body>
-    <div id="viewer"></div>
-    <script src="./bundle.js?01132"></script>
+    <div class="menu">
+      <img src='https://image.flaticon.com/icons/svg/2099/2099153.svg' />
+    </div>
+    <div class="open-menu">
+      <div class="content">
+        <button class="option" id='conv'>Conveniência</button>
+        <button class="option" id='lazer'>Lazer</button>
+        <button class="option" id='health'>Saúde e Bem-estar</button>
+        <button class="option" id='all'>Ver tudo</button>
+      </div>
+    </div>
+    <div id="viewer">
+    </div>
+    <script>
+      $('.menu').click(function(e) {
+        $('.open-menu').toggle('slow');
+      });
+
+      $('.option').click(function(e) {
+        $('.open-menu').hide('slow');
+      });
+   
+      $('#lazer').click(function(e) {
+        $('.lazer').each(function (i, elem) {
+          $(elem).show();
+        });
+
+        $('.health').each(function (i, elem) {
+          $(elem).hide();
+        });
+
+        $('.conv').each(function (i, elem) {
+          $(elem).hide();
+        });
+      });
+
+      $('#conv').click(function(e) {
+        $('.lazer').each(function (i, elem) {
+          $(elem).hide();
+        });
+
+        $('.health').each(function (i, elem) {
+          $(elem).hide();
+        });
+
+        $('.conv').each(function (i, elem) {
+          $(elem).show();
+        });
+      });
+
+      $('#health').click(function(e) {
+        $('.lazer').each(function (i, elem) {
+          $(elem).hide();
+        });
+
+        $('.health').each(function (i, elem) {
+          $(elem).show();
+        });
+
+        $('.conv').each(function (i, elem) {
+          $(elem).hide();
+        });
+      });
+
+      $('#all').click(function(e) {
+        $('.lazer').each(function (i, elem) {
+          $(elem).show();
+        });
+
+        $('.health').each(function (i, elem) {
+          $(elem).show();
+        });
+
+        $('.conv').each(function (i, elem) {
+          $(elem).show();
+        });
+      });
+    </script>
+    <script src="./bundle.js?011132"></script>
   </body>
 </html>

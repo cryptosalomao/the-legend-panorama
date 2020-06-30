@@ -26,6 +26,7 @@ const viewer = new PhotoSphereViewer({
         padding: '10px',
         textAlign: 'center'
       },
+      className: 'lazer',
       tooltip: {
         content: 'Distância andando: 4min | Lazer'
       }
@@ -45,6 +46,7 @@ const viewer = new PhotoSphereViewer({
         padding: '10px',
         textAlign: 'center'
       },
+      className: 'conv',
       tooltip: {
         content: 'Distância andando: 4min | Conveniência'
       }
@@ -64,6 +66,7 @@ const viewer = new PhotoSphereViewer({
         padding: '10px',
         textAlign: 'center'
       },
+      className: 'lazer',
       tooltip: {
         content: 'Distância andando: 3min | Lazer'
       }
@@ -83,6 +86,7 @@ const viewer = new PhotoSphereViewer({
         padding: '10px',
         textAlign: 'center'
       },
+      className: 'lazer',
       tooltip: {
         content: 'Distância andando: 3min | Lazer'
       }
@@ -102,6 +106,7 @@ const viewer = new PhotoSphereViewer({
         padding: '10px',
         textAlign: 'center'
       },
+      className: 'lazer',
       tooltip: {
         content: 'Distância andando: 6min | Lazer'
       }
@@ -121,6 +126,7 @@ const viewer = new PhotoSphereViewer({
         padding: '10px',
         textAlign: 'center'
       },
+      className: 'conv',
       tooltip: {
         content: 'Distância andando: 13min | Conveniência'
       }
@@ -140,6 +146,7 @@ const viewer = new PhotoSphereViewer({
         padding: '10px',
         textAlign: 'center'
       },
+      className: 'health',
       tooltip: {
         content: 'Distância andando: 14min | Saúde e Bem-Estar'
       }
@@ -159,6 +166,7 @@ const viewer = new PhotoSphereViewer({
         padding: '10px',
         textAlign: 'center'
       },
+      className: 'lazer',
       tooltip: {
         content: 'Distância andando: 8min | Lazer'
       }
@@ -178,6 +186,7 @@ const viewer = new PhotoSphereViewer({
         padding: '10px',
         textAlign: 'center'
       },
+      className: 'health',
       tooltip: {
         content: 'Distância andando: 30min | Distância de carro: 10min | Saúde e Bem-Estar'
       }
@@ -197,6 +206,7 @@ const viewer = new PhotoSphereViewer({
         padding: '10px',
         textAlign: 'center'
       },
+      className: 'lazer',
       tooltip: {
         content: 'Distância andando: 14min | Lazer'
       }
@@ -216,6 +226,7 @@ const viewer = new PhotoSphereViewer({
         padding: '10px',
         textAlign: 'center'
       },
+      className: 'conv',
       tooltip: {
         content: 'Distância andando: 36min | Distância de Carro: 6min | Conveniência'
       }
@@ -235,6 +246,7 @@ const viewer = new PhotoSphereViewer({
         padding: '10px',
         textAlign: 'center'
       },
+      className: 'lazer',
       tooltip: {
         content: 'Distância andando: 6min | Lazer'
       }
