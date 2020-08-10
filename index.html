@@ -186,19 +186,42 @@
       });
 
       $('#all').click(function(e) {
-        $('.lazer').each(function (i, elem) {
-          $(elem).removeClass('hide-show');
-        });
+        if(!$(this).hasClass('see')) {
 
-        $('.health').each(function (i, elem) {
-          $(elem).removeClass('hide-show');
-        });
+          $(this).text('Ocultar tudo')
 
-        $('.conv').each(function (i, elem) {
-          $(elem).removeClass('hide-show');
-        });
+          $('.lazer').each(function (i, elem) {
+            $(elem).removeClass('hide-show');
+          });
+
+          $('.health').each(function (i, elem) {
+            $(elem).removeClass('hide-show');
+          });
+
+          $('.conv').each(function (i, elem) {
+            $(elem).removeClass('hide-show');
+          });
+
+        } else {
+
+          $(this).text('Ver tudo')
+
+          $('.lazer').each(function (i, elem) {
+            $(elem).addClass('hide-show');
+          });
+
+          $('.health').each(function (i, elem) {
+            $(elem).addClass('hide-show');
+          });
+
+          $('.conv').each(function (i, elem) {
+            $(elem).addClass('hide-show');
+          });
+        }
+
+        $(this).toggleClass('see');
       });
     </script>
-    <script src="./bundle.js?ab"></script>
+    <script src="./bundle.js?ab1"></script>
   </body>
 </html>

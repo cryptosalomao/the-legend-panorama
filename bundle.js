@@ -51,7 +51,7 @@ const viewer = new PhotoSphereViewer({
     {
       id: 'marker3',
       longitude: -2.4,
-      latitude: -0.37,
+      latitude: -0.28,
       html: `<span class='description'>Rua Normandia</span>
               <img src='https://photo-sphere-viewer.js.org/assets/pin-red.png' width='32'></img>`,
       style: {
@@ -69,7 +69,7 @@ const viewer = new PhotoSphereViewer({
     {
       id: 'marker4',
       longitude: -2.6,
-      latitude: -0.55,
+      latitude: -0.35,
       html: `<span class='description'>Hocca Bar Moema</span>
              <img src='https://photo-sphere-viewer.js.org/assets/pin-red.png' width='32'></img>`,
       style: {
@@ -135,7 +135,7 @@ const viewer = new PhotoSphereViewer({
       },
       className: 'health hide-show',
       tooltip: {
-        content: '14min de bike | Saúde e Bem-Estar'
+        content: '14min de bike | Qualidade de Vida'
       }
     },
     {
@@ -171,7 +171,7 @@ const viewer = new PhotoSphereViewer({
       },
       className: 'health',
       tooltip: {
-        content: '30min de bike | Saúde e Bem-Estar'
+        content: '30min de bike | Qualidade de Vida'
       }
     },
     {
@@ -213,7 +213,7 @@ const viewer = new PhotoSphereViewer({
     {
       id: 'marker12',
       longitude: 1.49,
-      latitude: -0.21,
+      latitude: -0.18,
       html: `<span class='description'>Bourbon Street</span>
              <img src='https://photo-sphere-viewer.js.org/assets/pin-red.png' width='32'></img>`,
       style: {
@@ -230,8 +230,8 @@ const viewer = new PhotoSphereViewer({
     },
     {
       id: 'static1',
-      longitude: -2.02,
-      latitude: -0.65,
+      longitude: -2.2,
+      latitude: -0.48,
       html: `<span class='description'>Windhuck</span>
              <img src='https://photo-sphere-viewer.js.org/assets/pin-red.png' width='32'/>`,
       style: {
@@ -248,8 +248,8 @@ const viewer = new PhotoSphereViewer({
     },
     {
       id: 'static2',
-      longitude: -1.08,
-      latitude: -0.58,
+      longitude: -1.02,
+      latitude: -0.5,
       html: `<span class='description'>Gajos Moema</span>
              <img src='https://photo-sphere-viewer.js.org/assets/pin-red.png' width='32'/>`,
       style: {
@@ -285,7 +285,7 @@ const viewer = new PhotoSphereViewer({
     {
       id: 'static4',
       longitude: -2.15,
-      latitude: -0.13,
+      latitude: -0.10,
       html: `<span class='description'>Pain et Chocolat</span>
              <img src='https://photo-sphere-viewer.js.org/assets/pin-red.png' width='32'/>`,
       style: {
@@ -302,8 +302,8 @@ const viewer = new PhotoSphereViewer({
     },
     {
       id: 'static5',
-      longitude: -1.91,
-      latitude: 0.02,
+      longitude: -1.86,
+      latitude: 0.08,
       html: `<span class='description'>Stuppendo</span>
              <img src='https://photo-sphere-viewer.js.org/assets/pin-red.png' width='32'/>`,
       style: {
@@ -333,7 +333,7 @@ const viewer = new PhotoSphereViewer({
       },
       className: 'health hide-show',
       tooltip: {
-        content: '9min à pé | Saúde e Bem-Estar'
+        content: '9min à pé | Qualidade de Vida'
       }
     },
     {
@@ -357,7 +357,7 @@ const viewer = new PhotoSphereViewer({
     {
       id: 'static8',
       longitude: -1.84,
-      latitude: -0.06,
+      latitude: -0.12,
       html: `<span class='description'>Cabana Burger</span>
              <img src='https://photo-sphere-viewer.js.org/assets/pin-red.png' width='32'/>`,
       style: {
@@ -405,13 +405,13 @@ const viewer = new PhotoSphereViewer({
       },
       className: 'health hide-show',
       tooltip: {
-        content: '19min de bike | Saúde e Bem-Estar'
+        content: '19min de bike | Qualidade de Vida'
       }
     },
     {
       id: 'static11',
-      longitude: -1.06,
-      latitude: -0.02,
+      longitude: -0.56,
+      latitude: 0.05,
       html: `<span class='description'>Parque das Bicicletas</span>
              <img src='https://photo-sphere-viewer.js.org/assets/pin-red.png' width='32'/>`,
       style: {
@@ -423,7 +423,7 @@ const viewer = new PhotoSphereViewer({
       },
       className: 'health',
       tooltip: {
-        content: '24min de bike | Saúde e Bem-Estar'
+        content: '24min de bike | Qualidade de Vida'
       }
     },
     {
