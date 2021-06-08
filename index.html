@@ -198,6 +198,32 @@
         });
       });
 
+      $('#gastronomia').click(function(e) {
+        $('.acesso').each(function (i, elem) {
+          $(elem).addClass('hide-show');
+        });
+
+        $('.gastronomia').each(function (i, elem) {
+          $(elem).removeClass('hide-show');
+        });
+
+        $('.conv').each(function (i, elem) {
+          $(elem).addClass('hide-show');
+        });
+
+        $('.academia').each(function (i, elem) {
+          $(elem).addClass('hide-show');
+        });
+
+        $('.hospital').each(function (i, elem) {
+          $(elem).addClass('hide-show');
+        });
+
+        $('.parque').each(function (i, elem) {
+          $(elem).addClass('hide-show');
+        });
+      });
+
       $('#academia').click(function(e) {
         $('.acesso').each(function (i, elem) {
           $(elem).addClass('hide-show');
@@ -337,6 +363,6 @@
         $(this).toggleClass('see');
       });
     </script>
-    <script src="./bundle.js?ab2"></script>
+    <script src="./bundle.js?ab4"></script>
   </body>
 </html>
