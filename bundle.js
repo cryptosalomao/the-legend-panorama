@@ -335,7 +335,7 @@ const viewer = new PhotoSphereViewer({
         padding: '10px',
         textAlign: 'center'
       },
-      className: 'academia hide-show',
+      className: 'hospital hide-show',
       tooltip: {
         content: '4min | 1,1km'
       }
@@ -353,7 +353,7 @@ const viewer = new PhotoSphereViewer({
         padding: '10px',
         textAlign: 'center'
       },
-      className: 'academia hide-show',
+      className: 'hospital hide-show',
       tooltip: {
         content: '7min | 2,5km'
       }
