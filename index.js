@@ -161,7 +161,7 @@ const viewer = new PhotoSphereViewer({
       id: 'marker9',
       longitude: 0.37,
       latitude: -0.17,
-      html: `<span class='description'>Vicolo</span>
+      html: `<span class='description'>Vicolo Nostro</span>
              <img src='./img/pin-purple.png' width='32'></img>`,
       style: {
         color: 'white',
