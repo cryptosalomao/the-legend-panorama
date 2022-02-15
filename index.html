@@ -116,13 +116,32 @@
         .hide-show {
           display: none;
         }
+        .boxed {
+          display: flex;
+          flex-direction: column;
+          align-content: space-between;
+          align-items: center;
+          height: 180px;
+        }
+        .wrapper {
+          height: 120px;
+        }
         .description {
-          margin-bottom: 4px;
+          transform: rotate(-90deg);
+          transform-origin: right, top;
+          -ms-transform: rotate(-90deg);
+          -ms-transform-origin: right, top;
+          -webkit-transform: rotate(-90deg);
+          -webkit-transform-origin:right, top;
           background-color: rgba(20, 20, 20, 0.8);
           padding: 10px;
+          min-width: 200px !important;
           box-sizing: border-box;
           border-radius: 4px;
           display: block;
+        }
+        .pin {
+          margin-top: 10px;
         }
       </style>
   </head>

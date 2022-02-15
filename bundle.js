@@ -15,25 +15,33 @@ const viewer = new PhotoSphereViewer({
     // Acessos
     {
       id: 'marker1',
-      longitude: 0.01,
-      latitude: -0.01,
-      html: `<span class='description'>Shopping Cidade Jardim</span>
-             <img src='./img/pin-green.png' width='32'/>`,
+      longitude: 0.03,
+      latitude: 0.01,
+      html: `<div class='boxed'>
+              <div class="wrapper">
+                <span class='description'>Shopping Cidade Jardim</span>
+              </div>              
+              <img class='pin' src='./img/pin-yellow.svg' width='32'/>
+             </div>`,
       style: {
         color: 'white',
         fontFamily: 'Roboto, sans-serif',
         borderRadius: '5px',
         padding: '10px',
-        textAlign: 'center'
+        textAlign: 'center',
       },
       className: 'conv',
     },
     {
       id: 'marker2',
-      longitude: 0.17,
+      longitude: 0.20,
       latitude: -0.06,
-      html: `<span class='description'>D&D / CENU</span>
-             <img src='./img/pin-green.png' width='32'/>`,
+      html: `<div class='boxed'>
+              <div class="wrapper">
+                <span class='description'>D&D / CENU</span>
+              </div>              
+              <img class='pin' src='./img/pin-yellow.svg' width='32'/>
+            </div>`,
       style: {
         color: 'white',
         fontFamily: 'Roboto, sans-serif',
@@ -45,10 +53,14 @@ const viewer = new PhotoSphereViewer({
     },
     {
       id: 'marker3',
-      longitude: 0.27,
-      latitude: -0.1,
-      html: `<span class='description'>Hilton Hotel</span>
-              <img src='./img/pin-green.png' width='32'></img>`,
+      longitude: 0.26,
+      latitude: 0.07,
+      html: `<div class='boxed'>
+              <div class="wrapper">
+                <span class='description'>Hilton Hotel</span>
+              </div>              
+              <img class='pin' src='./img/pin-yellow.svg' width='32'/>
+            </div>`,
       style: {
         color: 'white',
         fontFamily: 'Roboto, sans-serif',
@@ -61,9 +73,13 @@ const viewer = new PhotoSphereViewer({
     {
       id: 'marker4',
       longitude: 0.47,
-      latitude: -0.39,
-      html: `<span class='description'>Grand Hyatt Hotel</span>
-             <img src='./img/pin-green.png' width='32'></img>`,
+      latitude: -0.44,
+      html: `<div class='boxed'>
+              <div class="wrapper">
+                <span class='description'>Grand Hyatt Hotel</span>
+              </div>              
+              <img class='pin' src='./img/pin-yellow.svg' width='32'/>
+            </div>`,
       style: {
         color: 'white',
         fontFamily: 'Roboto, sans-serif',
@@ -77,13 +93,17 @@ const viewer = new PhotoSphereViewer({
       id: 'marker5',
       longitude: 0.88,
       latitude: -0.49,
-      html: `<span class='description'>Avenida Berrini</span>
-             <img src='./img/pin-blue.png' width='32'></img>`,
+      html: `<div class='boxed'>
+              <div class="wrapper">
+                <span class='description'>Avenida Berrini</span>
+              </div>              
+              <img class='pin' src='./img/pin-yellow.svg' width='32'/>
+            </div>`,
       style: {
         color: 'white',
         fontFamily: 'Roboto, sans-serif',
         borderRadius: '5px',
-        padding: '10px',
+        padding: '30px',
         textAlign: 'center'
       },
       className: 'acesso hide-show',
@@ -92,8 +112,12 @@ const viewer = new PhotoSphereViewer({
       id: 'marker6',
       longitude: 1.32,
       latitude: -0.04,
-      html: `<span class='description'>St Marche Brooklin</span>
-             <img src='./img/pin-green.png' width='32'></img>`,
+      html: `<div class='boxed'>
+              <div class="wrapper">
+                <span class='description'>St. March Brooklin</span>
+              </div>              
+              <img class='pin' src='./img/pin-yellow.svg' width='32'/>
+            </div>`,
       style: {
         color: 'white',
         fontFamily: 'Roboto, sans-serif',
@@ -107,8 +131,12 @@ const viewer = new PhotoSphereViewer({
       id: 'marker7',
       longitude: 1.48,
       latitude: -0.04,
-      html: `<span class='description'>Colégio Vértice</span>
-             <img src='./img/pin-green.png' width='32'></img>`,
+      html: `<div class='boxed'>
+              <div class="wrapper">
+                <span class='description'>Colégio Vértice</span>
+              </div>              
+              <img class='pin' src='./img/pin-yellow.svg' width='32'/>
+            </div>`,
       style: {
         color: 'white',
         fontFamily: 'Roboto, sans-serif',
@@ -122,8 +150,12 @@ const viewer = new PhotoSphereViewer({
       id: 'marker8',
       longitude: 1.76,
       latitude: -0.08,
-      html: `<span class='description'>Avenida Santo Amaro</span>
-             <img src='./img/pin-blue.png' width='32'></img>`,
+      html: `<div class='boxed'>
+              <div class="wrapper">
+                <span class='description'>Avenida Santo Amaro</span>
+              </div>              
+              <img class='pin' src='./img/pin-yellow.svg' width='32'/>
+            </div>`,
       style: {
         color: 'white',
         fontFamily: 'Roboto, sans-serif',
@@ -137,8 +169,12 @@ const viewer = new PhotoSphereViewer({
       id: 'marker9',
       longitude: 1.90,
       latitude: -0.09,
-      html: `<span class='description'>Pão de Açúcar</span>
-             <img src='./img/pin-green.png' width='32'></img>`,
+      html: `<div class='boxed'>
+              <div class="wrapper">
+                <span class='description'>Pão de Açúcar</span>
+              </div>              
+              <img class='pin' src='./img/pin-yellow.svg' width='32'/>
+            </div>`,
       style: {
         color: 'white',
         fontFamily: 'Roboto, sans-serif',
@@ -152,8 +188,12 @@ const viewer = new PhotoSphereViewer({
       id: 'marker10',
       longitude: 2.78,
       latitude: -0.29,
-      html: `<span class='description'>Avenida Vicente Rao</span>
-             <img src='./img/pin-blue.png' width='32'></img>`,
+      html: `<div class='boxed'>
+              <div class="wrapper">
+                <span class='description'>Av. Roque Petroni Jr.</span>
+              </div>              
+              <img class='pin' src='./img/pin-yellow.svg' width='32'/>
+            </div>`,
       style: {
         color: 'white',
         fontFamily: 'Roboto, sans-serif',
@@ -165,10 +205,14 @@ const viewer = new PhotoSphereViewer({
     },
     {
       id: 'marker11',
-      longitude: 2.87,
-      latitude: -0.26,
-      html: `<span class='description'>Morumbi Shopping</span>
-             <img src='./img/pin-green.png' width='32'></img>`,
+      longitude: 2.94,
+      latitude: -0.16,
+      html: `<div class='boxed'>
+              <div class="wrapper">
+                <span class='description'>Morumbi Shopping</span>
+              </div>              
+              <img class='pin' src='./img/pin-yellow.svg' width='32'/>
+            </div>`,
       style: {
         color: 'white',
         fontFamily: 'Roboto, sans-serif',
@@ -180,10 +224,14 @@ const viewer = new PhotoSphereViewer({
     },
     {
       id: 'marker12',
-      longitude: 2.92,
-      latitude: -0.32,
-      html: `<span class='description'>Restaurante Pobre Juan</span>
-             <img src='./img/pin-green.png' width='32'></img>`,
+      longitude: 3.01,
+      latitude: -0.22,
+      html: `<div class='boxed'>
+              <div class="wrapper">
+                <span class='description'>Restaurante Pobre Juan</span>
+              </div>              
+              <img class='pin' src='./img/pin-yellow.svg' width='32'/>
+            </div>`,
       style: {
         color: 'white',
         fontFamily: 'Roboto, sans-serif',
@@ -198,8 +246,12 @@ const viewer = new PhotoSphereViewer({
       id: 'static1',
       longitude: 3.02,
       latitude: -0.47,
-      html: `<span class='description'>Teatro Vivo</span>
-             <img src='./img/pin-green.png' width='32'/>`,
+      html: `<div class='boxed'>
+              <div class="wrapper">
+                <span class='description'>Teatro Vivo</span>
+              </div>              
+              <img class='pin' src='./img/pin-yellow.svg' width='32'/>
+            </div>`,
       style: {
         color: 'white',
         fontFamily: 'Roboto, sans-serif',
@@ -213,8 +265,12 @@ const viewer = new PhotoSphereViewer({
       id: 'static2',
       longitude: -0.06,
       latitude: -0.48,
-      html: `<span class='description'>Marginal Pinheiros</span>
-             <img src='./img/pin-blue.png' width='32'/>`,
+      html: `<div class='boxed'>
+              <div class="wrapper">
+                <span class='description'>Marginal Pinheiros</span>
+              </div>              
+              <img class='pin' src='./img/pin-yellow.svg' width='32'/>
+            </div>`,
       style: {
         color: 'white',
         fontFamily: 'Roboto, sans-serif',
