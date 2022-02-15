@@ -15,7 +15,7 @@ const viewer = new PhotoSphereViewer({
     {
       id: 'marker1',
       longitude: 0.03,
-      latitude: 0.01,
+      latitude: -0.05,
       html: `<div class='boxed'>
               <div class="wrapper">
                 <span class='description'>Shopping Cidade Jardim</span>
@@ -33,7 +33,7 @@ const viewer = new PhotoSphereViewer({
     {
       id: 'marker2',
       longitude: 0.20,
-      latitude: -0.06,
+      latitude: -0.12,
       html: `<div class='boxed'>
               <div class="wrapper">
                 <span class='description'>D&D / CENU</span>
@@ -52,7 +52,7 @@ const viewer = new PhotoSphereViewer({
     {
       id: 'marker3',
       longitude: 0.26,
-      latitude: 0.07,
+      latitude: 0.01,
       html: `<div class='boxed'>
               <div class="wrapper">
                 <span class='description'>Hilton Hotel</span>
@@ -71,7 +71,7 @@ const viewer = new PhotoSphereViewer({
     {
       id: 'marker4',
       longitude: 0.47,
-      latitude: -0.44,
+      latitude: -0.48,
       html: `<div class='boxed'>
               <div class="wrapper">
                 <span class='description'>Grand Hyatt Hotel</span>
@@ -89,7 +89,7 @@ const viewer = new PhotoSphereViewer({
     },
     {
       id: 'marker5',
-      longitude: 0.88,
+      longitude: 0.80,
       latitude: -0.49,
       html: `<div class='boxed'>
               <div class="wrapper">
@@ -203,8 +203,8 @@ const viewer = new PhotoSphereViewer({
     },
     {
       id: 'marker11',
-      longitude: 2.94,
-      latitude: -0.16,
+      longitude: 2.98,
+      latitude: -0.22,
       html: `<div class='boxed'>
               <div class="wrapper">
                 <span class='description'>Morumbi Shopping</span>
@@ -223,7 +223,7 @@ const viewer = new PhotoSphereViewer({
     {
       id: 'marker12',
       longitude: 3.01,
-      latitude: -0.22,
+      latitude: -0.27,
       html: `<div class='boxed'>
               <div class="wrapper">
                 <span class='description'>Restaurante Pobre Juan</span>
