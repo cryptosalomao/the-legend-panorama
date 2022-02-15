@@ -20,13 +20,12 @@ const viewer = new PhotoSphereViewer({
               <div class="wrapper">
                 <span class='description'>Shopping Cidade Jardim</span>
               </div>              
-              <img class='pin' src='./img/pin-yellow.svg' width='32'/>
+              <img class='pin' src='./img/pin-yellow.png' width='32'/>
              </div>`,
       style: {
         color: 'white',
         fontFamily: 'Roboto, sans-serif',
         borderRadius: '5px',
-        padding: '10px',
         textAlign: 'center',
       },
       className: 'conv',
@@ -39,7 +38,7 @@ const viewer = new PhotoSphereViewer({
               <div class="wrapper">
                 <span class='description'>D&D / CENU</span>
               </div>              
-              <img class='pin' src='./img/pin-yellow.svg' width='32'/>
+              <img class='pin' src='./img/pin-yellow.png' width='32'/>
             </div>`,
       style: {
         color: 'white',
@@ -58,7 +57,7 @@ const viewer = new PhotoSphereViewer({
               <div class="wrapper">
                 <span class='description'>Hilton Hotel</span>
               </div>              
-              <img class='pin' src='./img/pin-yellow.svg' width='32'/>
+              <img class='pin' src='./img/pin-yellow.png' width='32'/>
             </div>`,
       style: {
         color: 'white',
@@ -77,7 +76,7 @@ const viewer = new PhotoSphereViewer({
               <div class="wrapper">
                 <span class='description'>Grand Hyatt Hotel</span>
               </div>              
-              <img class='pin' src='./img/pin-yellow.svg' width='32'/>
+              <img class='pin' src='./img/pin-yellow.png' width='32'/>
             </div>`,
       style: {
         color: 'white',
@@ -96,7 +95,7 @@ const viewer = new PhotoSphereViewer({
               <div class="wrapper">
                 <span class='description'>Avenida Berrini</span>
               </div>              
-              <img class='pin' src='./img/pin-yellow.svg' width='32'/>
+              <img class='pin' src='./img/pin-red.png' width='32'/>
             </div>`,
       style: {
         color: 'white',
@@ -115,7 +114,7 @@ const viewer = new PhotoSphereViewer({
               <div class="wrapper">
                 <span class='description'>St. March Brooklin</span>
               </div>              
-              <img class='pin' src='./img/pin-yellow.svg' width='32'/>
+              <img class='pin' src='./img/pin-yellow.png' width='32'/>
             </div>`,
       style: {
         color: 'white',
@@ -134,7 +133,7 @@ const viewer = new PhotoSphereViewer({
               <div class="wrapper">
                 <span class='description'>Colégio Vértice</span>
               </div>              
-              <img class='pin' src='./img/pin-yellow.svg' width='32'/>
+              <img class='pin' src='./img/pin-yellow.png' width='32'/>
             </div>`,
       style: {
         color: 'white',
@@ -153,7 +152,7 @@ const viewer = new PhotoSphereViewer({
               <div class="wrapper">
                 <span class='description'>Avenida Santo Amaro</span>
               </div>              
-              <img class='pin' src='./img/pin-yellow.svg' width='32'/>
+              <img class='pin' src='./img/pin-red.png' width='32'/>
             </div>`,
       style: {
         color: 'white',
@@ -172,7 +171,7 @@ const viewer = new PhotoSphereViewer({
               <div class="wrapper">
                 <span class='description'>Pão de Açúcar</span>
               </div>              
-              <img class='pin' src='./img/pin-yellow.svg' width='32'/>
+              <img class='pin' src='./img/pin-yellow.png' width='32'/>
             </div>`,
       style: {
         color: 'white',
@@ -191,7 +190,7 @@ const viewer = new PhotoSphereViewer({
               <div class="wrapper">
                 <span class='description'>Av. Roque Petroni Jr.</span>
               </div>              
-              <img class='pin' src='./img/pin-yellow.svg' width='32'/>
+              <img class='pin' src='./img/pin-red.png' width='32'/>
             </div>`,
       style: {
         color: 'white',
@@ -210,7 +209,7 @@ const viewer = new PhotoSphereViewer({
               <div class="wrapper">
                 <span class='description'>Morumbi Shopping</span>
               </div>              
-              <img class='pin' src='./img/pin-yellow.svg' width='32'/>
+              <img class='pin' src='./img/pin-yellow.png' width='32'/>
             </div>`,
       style: {
         color: 'white',
@@ -229,7 +228,7 @@ const viewer = new PhotoSphereViewer({
               <div class="wrapper">
                 <span class='description'>Restaurante Pobre Juan</span>
               </div>              
-              <img class='pin' src='./img/pin-yellow.svg' width='32'/>
+              <img class='pin' src='./img/pin-yellow.png' width='32'/>
             </div>`,
       style: {
         color: 'white',
@@ -249,7 +248,7 @@ const viewer = new PhotoSphereViewer({
               <div class="wrapper">
                 <span class='description'>Teatro Vivo</span>
               </div>              
-              <img class='pin' src='./img/pin-yellow.svg' width='32'/>
+              <img class='pin' src='./img/pin-yellow.png' width='32'/>
             </div>`,
       style: {
         color: 'white',
@@ -268,7 +267,7 @@ const viewer = new PhotoSphereViewer({
               <div class="wrapper">
                 <span class='description'>Marginal Pinheiros</span>
               </div>              
-              <img class='pin' src='./img/pin-yellow.svg' width='32'/>
+              <img class='pin' src='./img/pin-red.png' />
             </div>`,
       style: {
         color: 'white',
